@@ -1,4 +1,4 @@
-# Install script for directory: /home/gvaldez/raspberry_pico/pico-sdk/src/common/boot_picoboot
+# Install script for directory: /home/gaston/raspberry_pico/pico/pico-sdk/src/common/boot_picoboot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

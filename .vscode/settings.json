@@ -4,16 +4,16 @@
     // a Pico binary on the host
     "cmake.statusbar.advanced": {
         "debug": {
-            "visibility": "hidden"
+            "visibility": "icon"
         },
         "launch": {
-            "visibility": "hidden"
+            "visibility": "icon"
         },
         "build": {
-            "visibility": "hidden"
+            "visibility": "icon"
         },
         "buildTarget": {
-            "visibility": "hidden"
+            "visibility": "icon"
         }
     },
     "cortex-debug.openocdPath": "/usr/local/bin/openocd",

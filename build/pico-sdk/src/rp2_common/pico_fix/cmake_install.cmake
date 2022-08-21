@@ -1,4 +1,4 @@
-# Install script for directory: /home/gvaldez/raspberry_pico/pico-sdk/src/rp2_common/pico_fix
+# Install script for directory: /home/gaston/raspberry_pico/pico/pico-sdk/src/rp2_common/pico_fix
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/gvaldez/custom_pico/build/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/cmake_install.cmake")
+  include("/home/gaston/rpico_template/templateRpico/build/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/cmake_install.cmake")
 
 endif()
 

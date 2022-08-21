@@ -1,7 +1,13 @@
+cmake_minimum_required(VERSION 3.13)
+
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
-add_executable(
-    main 
+add_executable(main 
     main.c 
 )
-target_link_libraries(main pico_stdlib)
+
+target_link_libraries(main dht11)
+pico_enable_stdio_usb(main 0) 
+pico_enable_stdio_uart(main 1) 
+# pull in common dependencies
+pico_add_extra_outputs(main)

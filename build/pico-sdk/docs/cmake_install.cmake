@@ -1,4 +1,4 @@
-# Install script for directory: /home/gvaldez/raspberry_pico/pico-sdk/docs
+# Install script for directory: /home/gaston/raspberry_pico/pico/pico-sdk/docs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

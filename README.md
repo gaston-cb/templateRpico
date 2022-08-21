@@ -1,17 +1,22 @@
 estructura de directorios 
 
-template para raspberry-pico 
+app/dht11/inc *.h
+app/dht11/src *.c
+app/"sensor"/inc *.c
+app/"sensor"/src *.c 
 
-app/component/inc 
-app/component/src 
+peripheral_commons/board/i2c/inc 
+peripheral_commons/board/i2c/src
+peripheral_commons/board/spi/inc 
+peripheral_commons/board/timer/inc 
 
-mas de dos componentes: 
-app /comp1/inc
-app /comp1/src
 
-app/comp2/inc
-app/comp2/src
+main ..> aplicacion principal ! 
 
-main/main.c
- 
+
+
+
+
+por ejemplo: 
+
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/gvaldez/custom_pico/main
+# Install script for directory: /home/gaston/rpico_template/templateRpico/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
